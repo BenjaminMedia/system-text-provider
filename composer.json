@@ -5,7 +5,7 @@
     "require": {
         "illuminate/support": "^5.4",
         "laravel/framework": "^5.4",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.2"
     },
     "authors": [
         {
