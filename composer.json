@@ -1,0 +1,21 @@
+{
+    "name": "bonnier/system-text-provider",
+    "description": "Laravel package to implement system text translations from external service",
+    "type": "laravel-package",
+    "require": {
+        "illuminate/support": "^5.4",
+        "laravel/framework": "^5.4",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "Bonnier Publications",
+            "email": "interactive@bonnier.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bonnier\\SystemText\\": "src"
+        }
+    },
+}
