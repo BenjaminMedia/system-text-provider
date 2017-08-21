@@ -183,7 +183,6 @@ class FetchTranslationsCommand extends Command
                 }
             }
             $saveBar->advance();
-            echo PHP_EOL;
         }
         $saveBar->finish();
         echo PHP_EOL;
