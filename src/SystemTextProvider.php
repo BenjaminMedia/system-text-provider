@@ -25,7 +25,7 @@ class SystemTextProvider extends ServiceProvider
     public static function getTranslationPath()
     {
         if(!self::$translationPath) {
-            self::$translationPath = realpath(__DIR__.'/resources/lang');
+            self::$translationPath = __DIR__.DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR.'lang';
         }
         return self::$translationPath;
     }
