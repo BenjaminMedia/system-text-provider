@@ -27,7 +27,7 @@ class FetchTranslationsCommand extends Command
     public function __construct()
     {
         parent::__construct();
-        $this->sitemanager_url = config('services.systemtext.sitemanager_url');
+        $this->sitemanager_url = config('services.site_manager.host');
         $this->translation_endpoint = config('services.systemtext.translation_endpoint');
         $this->client = new Client();
     }
